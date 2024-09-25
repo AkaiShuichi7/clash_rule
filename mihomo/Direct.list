@@ -1,0 +1,17 @@
+# 直连补充列表(国内域名不解析时，防止走代理使用)
+
+#   - DOMAIN,google.com
+#   - DOMAIN-SUFFIX,google.com
+#   - DOMAIN-KEYWORD,google
+#   - DOMAIN-REGEX,^google.*com
+#   - GEOSITE,google
+#   - GEOSITE,cn
+#   - IP-CIDR,8.8.8.8/32,no-resolve
+#   - GEOIP,telegram
+#   - GEOIP,cn
+#   - Match
+
+# Plex
+- DOMAIN,v4.plex.tv
+- DOMAIN-SUFFIX,plex.direct
+- DOMAIN-SUFFIX,amazonaws.com
